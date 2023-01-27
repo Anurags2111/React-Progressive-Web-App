@@ -1,0 +1,103 @@
+.muiGrid {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+    
+  // border-style: dashed;
+  // border-color: red;
+}
+
+.muiBigBox {
+  position: absolute;
+  height: 89.218vh;
+  width: 100vw;
+  margin: 0 auto;
+  margin-top: 4.739vh;
+
+  // border-style: dashed;
+  // border-color: red;
+}
+
+.muiBox {
+  height: 89.218vh;
+  width: 94.359vw;
+  margin: 0 auto;
+
+  // border-style: solid;
+}
+
+.muiHeader {
+  height: 7.109vh;
+
+  // border-style: dashed;
+  // border-color: cyan;
+}
+
+.muiTitle {
+  color: white;
+  margin: 0 auto;
+  height: 11.256vh;
+  width: 85.897vw;
+
+  // border-style: dashed;
+  // border-color: magenta;
+}
+
+.muiDescription {
+  color: white;
+  margin: 0 auto;
+  height: 9.479vh;
+  width: 85.897vw;
+
+  // border-style: dashed;
+  // border-color: turquoise;
+}
+
+.muiForm {
+  display: grid;
+  margin: 0 auto;
+  height: 24.644vh;
+  width: 85.897vw;
+  place-items: center;
+  border: 2px solid #000000;
+}
+.muiFormInvisible {
+  display: grid;
+  margin: 0 auto;
+  height: 24.644vh;
+  width: 85.897vw;
+}
+
+
+.muiFooter {
+  position: relative;
+  margin: 0 auto;
+  height: 36.730vh;
+  width: 85.897vw;
+  justify-content:'flex-end';
+  align-items:'flex-end';
+
+  // border-style: dashed;
+  // border-color: aqua;
+}
+
+.muiFooter img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.camera {
+  position: relative;
+}
+
+video {
+  width: 100vw;
+  max-width: 100vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+.secondaryButton {
+  margin-bottom: 1.066vh;
+}

@@ -1,0 +1,52 @@
+
+.bigBox {
+  width: 100%;
+  margin: 0 auto;
+  width:85.897vw;
+  
+  // border-style: solid;
+}
+
+.telBox{
+  display: flex;
+  width: 20%;
+
+  // border-style: dashed;
+  // border-color: magenta;
+}
+
+.muiTextField {
+  width: 80%;
+
+  // border-style: dashed;
+  // border-color: aqua;
+
+}
+
+.selectBox{
+  width: 60px;
+  height: 40px;
+
+  // border-style: dashed;
+  // border-color: turquoise;
+}
+
+.flagImg{
+  width: 30px;
+  height: 20px;
+}
+
+.countryPopUp {
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  -webkit-appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+  padding-right: 3.7rem;
+}
+
+.tel{
+  width: 100%;
+}
